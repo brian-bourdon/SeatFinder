@@ -23,4 +23,4 @@ We have build a functional prototype which works with 2 seats and the following 
 
 # Architecture
 
-
+![Alt](/images/circuit.png "Circuit")
