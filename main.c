@@ -1,3 +1,9 @@
+//
+// Author : Clément Legouest
+// Project : Seat finder
+// For ESGI_5ALJ_2019-2020
+//
+
 #include <LiquidCrystal.h>
 
 // Pin init
