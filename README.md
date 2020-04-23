@@ -17,7 +17,6 @@ We have build a functional prototype which works with 2 seats and the following 
 * Passive infrared sensor
 * LED
 * Capacitor
-* Temperature sensor (TMP36)
 * LCD screen 16*2
 * Potentiometer
 
