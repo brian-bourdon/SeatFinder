@@ -12,4 +12,13 @@ On each car there is an LCD as well which show the number of the car, the number
 # Equipment
 
 * Arduino Uno
-* 
+* Passive infrared sensor
+* LED
+* Capacitor
+* Temperature sensor (TMP36)
+* LCD screen 16*2
+* Potentiometer
+
+# Architecture
+
+
