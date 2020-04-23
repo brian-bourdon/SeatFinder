@@ -23,3 +23,5 @@ We built a functional prototype which works with 2 seats and the following equip
 # Architecture
 
 ![Alt](/images/circuit.png "Circuit")
+
+# Code explanation
