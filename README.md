@@ -49,3 +49,31 @@ Ce projet n'est pas sous licence
 ![Alt](/images/circuit.png "Circuit")
 
 ## Code explanation
+
+//cette fonction verifie la disponibilité d'une place, retourne la valeur 0 si dispo 1 si indisponible et allume les leds en fonction
+int checkSeat(int pin_sensor, int red_led, int green_led) {
+  if (digitalRead(pin_sensor) == HIGH) {
+    digitalWrite(red_led, HIGH);
+    digitalWrite(green_led, LOW);
+    return 0;
+  } else {
+    digitalWrite(green_led, HIGH);
+    digitalWrite(red_led, LOW);
+    return 1;
+  }
+}
+
+//cette fonction execute en continu le script et capte les changements d'etats
+//elle affiche ensuite le nombre de place disponible sur l'ecran lcd
+void loop(){
+  status_seat_1 = checkSeat(PIN_SENSOR_1, PIN_RED_LED_1, PIN_GREEN_LED_1);
+  status_seat_2 = checkSeat(PIN_SENSOR_2, PIN_RED_LED_2, PIN_GREEN_LED_2);
+  
+  free_seats = status_seat_1 + status_seat_2;
+  lcd.setCursor(0, 0);
+  lcd.print("sieges libres :");
+  lcd.setCursor(0, 1);
+  lcd.print(free_seats);
+  
+  delay(250);
+}
