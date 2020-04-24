@@ -50,7 +50,7 @@ Ce projet n'est pas sous licence
 
 ## Code explanation
 
-checkSeat verifie la disponibilité d'une place, retourne la valeur 0 si dispo 1 si indisponible et allume les leds en fonction
+La fonction checkSeat verifie la disponibilité d'une place, retourne la valeur 0 si elle est disponible et 1 si indisponible et allume les leds en fonction.
 ```
 int checkSeat(int pin_sensor, int red_led, int green_led) {
   if (digitalRead(pin_sensor) == HIGH) {
@@ -64,8 +64,8 @@ int checkSeat(int pin_sensor, int red_led, int green_led) {
   }
 }
 ```
-loop execute en continu le script et capte les changements d'etats,
-elle affiche ensuite le nombre de place disponible sur l'ecran lcd
+La fonction Loop execute en continu le script et capte les changements d'etats,
+elle affiche ensuite le nombre de place disponible sur l'ecran lcd.
 
 ```
 void loop(){
