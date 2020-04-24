@@ -12,11 +12,11 @@ On each car there is an LCD as well which show the number of the car, the number
 
 We built a functional prototype which works with 2 seats and the following equipments.
 
-## Pré-requis
+## prerequisite
 
-- Connaissance en Iot
-- technique de programmation
-- connaissances en electronique
+- IOT knowledge
+- C language knowledge
+- Electronic knowledge
 
 ## Equipment
 
@@ -32,8 +32,8 @@ We built a functional prototype which works with 2 seats and the following equip
 - TinkerCad
 
 ## Versions
-**Dernière version stable :** 0.0
-**Dernière version :** 0.0
+**last stable version :** 0.0
+**last nightly build :** 0.0
 
 ## Auteurs
 Kyriel
@@ -42,11 +42,18 @@ Clément
 
 ## License
 
-Ce projet n'est pas sous licence
+This project is under copyleft licence
 
-## Schéma de principe
+## schematic diagram
 
-![Alt](/images/principe.png "Schéma de principe")
+![Alt](/images/principe.png "schematic diagram")
+
+## operating principle
+
+Each seat box is equipped with infrared sensors which is able to tell if a seat is free or not.
+Each car box is equipped with an arduino board which is reading the sensors within its car, compute all the data and display it to the car screen boxes.
+When arriving at station, the car box send the information to the platform box.
+The platform box display the information to the platform screen boxes.
 
 ## Architecture
 
