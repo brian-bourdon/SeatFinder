@@ -44,6 +44,10 @@ Clément
 
 Ce projet n'est pas sous licence
 
+## Schéma de principe
+
+![Alt](/images/principe.png "Schéma de principe")
+
 ## Architecture
 
 ![Alt](/images/circuit.png "Circuit")
