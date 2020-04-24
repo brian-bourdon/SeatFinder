@@ -12,7 +12,7 @@ On each car there is an LCD as well which show the number of the car, the number
 
 We built a functional prototype which works with 2 seats and the following equipments.
 
-## prerequisite
+## Prerequisite
 
 - IOT knowledge
 - C language knowledge
@@ -44,11 +44,11 @@ Clément
 
 This project is under copyleft licence
 
-## schematic diagram
+## Schematic diagram
 
 ![Alt](/images/principe.png "schematic diagram")
 
-## operating principle
+## Operating principle
 
 Each seat box is equipped with infrared sensors which is able to tell if a seat is free or not.
 Each car box is equipped with an arduino board which is reading the sensors within its car, compute all the data and display it to the car screen boxes.
