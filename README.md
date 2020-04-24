@@ -56,7 +56,7 @@ When arriving at station, the car box send the information to the platform box.
 The platform box display the information to the platform screen boxes.
 
 ## Architecture
-Thinkercad project: https://www.tinkercad.com/things/0fjr59SMFXZ
+Tinkercad project: https://www.tinkercad.com/things/0fjr59SMFXZ
 
 ![Alt](/images/circuit.png "Circuit")
 
