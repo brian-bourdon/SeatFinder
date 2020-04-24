@@ -12,6 +12,12 @@ On each car there is an LCD as well which show the number of the car, the number
 
 We built a functional prototype which works with 2 seats and the following equipments.
 
+## Pré-requis
+
+- Connaissance en Iot
+- technique de programmation
+- connaissances en electronique
+
 ## Equipment
 
 * Arduino Uno
@@ -20,12 +26,6 @@ We built a functional prototype which works with 2 seats and the following equip
 * Capacitor
 * LCD screen 16*2
 * Potentiometer
-
-## Pré-requis
-
-- Connaissance en Iot
-- technique de programmation
-- connaissances en electrique
 
 ## Fabriqué avec
 
